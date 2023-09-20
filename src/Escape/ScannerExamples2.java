@@ -11,6 +11,7 @@ public class ScannerExamples2 {
 		    System.out.print(" ");
 		    // read input(line of text) from the keyboard
 		    String name = input.nextLine();
+		    //String name = input.next();
 		    // prints the name
 		    System.out.println("My name is " + name);
 		    // closes the scanner

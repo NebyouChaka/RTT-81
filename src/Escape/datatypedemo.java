@@ -35,13 +35,3 @@ public class datatypedemo {
 	}
 
 }
-public static void main(String[] args) {
-    try (Scanner scanner = new Scanner(System.in)) {
-        int intValue = scanner.nextInt();
-        double doubleValue = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
-        String stringValue = scanner.nextLine();
-
-        System.out.println("String: " + stringValue);
-        System.out.println("Double: " + doubleValue);
-        System.out.println("Int: " + intValue);	
