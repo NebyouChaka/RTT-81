@@ -1,6 +1,21 @@
 package Escape;
 
 public class ConditionalOperation {
+	if(score >= 90.0)
+		System.out print("A");
+	else if ((score >= 80.0));
+	System.out print("");
+		else if ((score >= 70.0));
+	System.out print("");
+			else if ((score >= 60.0));
+	System.out print("D");
+	else
+		System.out print("F");
+		
+		
+		
+		
+		
 	public static void main(String[] args) {
 		boolean conditionOne = false;
 		boolean conditionTwo = false;
