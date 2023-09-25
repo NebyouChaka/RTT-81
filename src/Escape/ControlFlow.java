@@ -35,7 +35,7 @@ public class ControlFlow {
 
 	        y = 15;
 	        
-//	        //Write a program that declares 1 integer variable x, and then assigns 15 to it. 
+//	        //Write a program that declares 1 integer variable x, and then assigns 15 to it.
 //	        //Write an if-else-if statement that prints out “Less than 10” if x is less than 10;
 //	        //“Between 10 and 20” if x is greater than 10 but less than 20, and “Greater than or
 //	        //equal to 20” if x is greater than or equal to 20. Change x to 50 
