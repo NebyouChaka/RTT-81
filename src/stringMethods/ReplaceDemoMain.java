@@ -4,11 +4,15 @@ public class ReplaceDemoMain {
 	  public static void main(String[] args) {
 		    String str1 = "abc cba";
 
+		    
+		    String str2 = str1.replace('a', 'z'); 
+		    
 		    // all occurrences of 'a' is replaced with 'z'
 		    System.out.println(str1.replace('a', 'z'));  
 
 		    // all occurences of 'L' is replaced with 'J'
 		    System.out.println("Lava".replace('L', 'J'));  
+		    System.out.println("Lava".toUpperCase());
 		    // character not in the string
 		    System.out.println("Hello".replace('4', 'J')); 
 		// all occurrences of "C++" is replaced with "Java"
