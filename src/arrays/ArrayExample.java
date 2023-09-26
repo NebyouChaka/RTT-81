@@ -43,6 +43,7 @@ public class ArrayExample {
 		System.out.println("Number of nulls is " + nullCount);
 		
 		// write a for loop that tells me the location of the first null in the array
+		
 		// this is going to use the non-enhanced for loop
 		int firstNull = -1;
 		for (int pos = 0; pos < stringArray.length; pos++) {
@@ -53,15 +54,64 @@ public class ArrayExample {
 		}
 		
 		// write a for loop that tells me how many values are not null
+		
+		 int notNullCount = 0;
+		 for (int pos = 0; pos < stringArray.length; pos++) {
+			 if (stringArray[pos] != null) {
+				 notNullCount = notNullCount + 1 ;
+			 }
+		 }
+		 System.out.println("Number of null values in array is " + notNullCount);
 		// write a for loop that tells me the last position of null in the array
+		  int lastNullPositon = -1;
+		 for (int pos = 0; pos < stringArray.length; pos++) {
+			 if(stringArray[pos] == null) {
+				 lastNullPositon = pos;
+			 }
+		 }
+		 if (lastNullPositon != -1) {
+	            System.out.println("The array doesnot have a null");
+	        } else {
+	            System.out.println("The last null of the array is in position " + lastNullPositon);
+	        }
+		 
 		// write a for loop that starts at the final position in the array and counts down to the first
 		
+		  int firstPositon = -1;
+			 for (int pos = 0; pos < stringArray.length; pos++) {
+				 if(stringArray[pos] == null) {
+					 firstPositon = pos;
+				 }
+			 }
+			 System.out.println("Start from first position");
 		String letters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z";
 		
 		// use letters.split(",") to make an array of letters
 		// loop over the array and count the number of letters that are not vowels
 		
+		 String[] letterstArray = letters.split(",");
+
+	        int numberOfLetters = 0;
+
+	        for (int pos =0; pos < letterstArray.length; pos++) {
+	            if (letterstArray[pos].equals("a")){
+	            continue;
+	                
+	         }else if (letterstArray[pos].equals("e")) {
+	        	 continue;
+	        	 
+	        }else if (letterstArray[pos].equals("i")) {
+	        	 continue;
+	        	 
+	        }else if (letterstArray[pos].equals("o")) {
+	        	 continue;
+	        	 
+	        }else if (letterstArray[pos].equals("u")) {
+	        	 continue;	 
+	        }
+	        System.out.println("Number of non-vowel letters: " + numberOfLetters);
 		
 		System.out.println("Position of the first null is " + firstNull);
+	    }
 	}
 }
