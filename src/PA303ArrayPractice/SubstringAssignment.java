@@ -65,7 +65,7 @@ public class SubstringAssignment {
               char currentChar = text1.charAt(i);
               if (currentChar == 'a' || currentChar == 'e' || currentChar == 'i' || currentChar == 'o' || currentChar == 'u') {
                   firstVowel = String.valueOf(currentChar);
-                  break; // Exit the loop as soon as the first vowel is found
+                  break; 
               }
           }
 
@@ -74,7 +74,7 @@ public class SubstringAssignment {
               char currentChar = text1.charAt(i);
               if (currentChar == 'a' || currentChar == 'e' || currentChar == 'i' || currentChar == 'o' || currentChar == 'u') {
                   lastVowel = String.valueOf(currentChar);
-                  break; // Exit the loop as soon as the last vowel is found
+                  break; 
               }
           }
 

@@ -1,5 +1,6 @@
 package PA303ArrayPractice;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -131,6 +132,14 @@ public class PA303PracticeAssignmentArray {
 	        for (String element : stringArray) {
 	            System.out.print(element + " ");
 	        }
+	        
+	        //another solution
+	        
+	        String temp1 = stringArray[0];
+	        stringArray[0]= stringArray[2];
+	        stringArray[2] = temp;
+	        
+	        System.out.println(Arrays.toString(stringArray));
 	        
 	        
 	       //Task 9: 
