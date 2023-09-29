@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-	
+	// this one is good to learn how to code for the purpose of learning about operators!!!!
 	   public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        double num1, num2, result;
