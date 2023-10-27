@@ -57,7 +57,14 @@ public class CreateOrderDetails {
 		
 		// TODO
 		// if the order is null then print a message saying invalid order number
-		
+		if(o != null) {
+		   System.out.println(" The order number is: " + o.getId());
+		}else {
+		  System.out.println("Invalid product number");
+		}
+		if(o.getId()> 1) {
+		 System.out.println("you can not add a duplicate product");
+		}
 
 		// TODO .... if the product is already part of the order details - 
 		// print a message saying you can not add a duplicate product
