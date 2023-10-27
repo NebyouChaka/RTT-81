@@ -14,16 +14,16 @@ public class CreateAndUpdateExample {
 
 		// when creating a new database record do not set the id on the entity
 		c.setCustomerName("Series Reminder LLC");
-		c.setContactFirstname("Eric");
-		c.setContactLastname("Heilig");
+		c.setContactFirstname("Nebyou);
+		c.setContactLastname("Chaka");
 		c.setAddressLine1("Address line 1");
 		c.setAddressLine1("Address Line 2");
-		c.setCity("Denver");
-		c.setState("Colorado");
-		c.setPostalCode("80203");
+		c.setCity("Dacula");
+		c.setState("Georgia");
+		c.setPostalCode("30019");
 		c.setCountry("USA");
 		c.setCreditLimit(10000.00);
-		c.setPhone("555-555-1212");
+		c.setPhone("3234415191");
 
 		System.out.println("customer id before save " + c.getId());
 		customerDao.save(c);
