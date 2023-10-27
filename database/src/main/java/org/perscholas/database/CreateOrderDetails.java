@@ -70,6 +70,13 @@ public class CreateOrderDetails {
 		// print a message saying you can not add a duplicate product
 		// its its not part of the order then add it to the order
 		
+		for ( Orderdetail orderDetail : o.getOrderdetails() )  {
+		    if ( orderDetail.getProduct().getId() == productId) {
+		// the product is already part of the order
+		   System.out.println("The product " + p.getProductName() + " is already part of the order. can not add again");
+		   System.exit(1);
+		  }
+		}
 		
 		OrderDetail od = new OrderDetail();
 		od.setProduct(p);
